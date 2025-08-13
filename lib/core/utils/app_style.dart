@@ -31,6 +31,7 @@ abstract class AppTextStyles {
     fontSize: 20,
     fontWeight: FontWeight.w600,
     color: Color(0xFF064061),
+    fontFamily: 'Montserrat',
   );
 
   static const styleMedium14Gray = TextStyle(
