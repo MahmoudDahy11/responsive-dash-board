@@ -51,7 +51,7 @@ abstract class AppTextStyles {
   static const styleRegular12LightGray = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w400,
-    color: Color(0xFFBDC3C7),
+    color: Color.fromARGB(255, 226, 231, 234),
   );
 
   static const styleBold22Blue = TextStyle(
