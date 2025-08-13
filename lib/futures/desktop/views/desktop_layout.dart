@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:responsive_dash_board/core/utils/app_images.dart';
 import 'package:responsive_dash_board/core/utils/app_style.dart';
+import 'package:responsive_dash_board/futures/desktop/widgets/custom_list_tile.dart';
 import 'package:responsive_dash_board/futures/desktop/widgets/user_info_list_tile.dart';
 
 class DesktopLayout extends StatelessWidget {
@@ -18,6 +18,10 @@ class DesktopLayout extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 UserInfoListTile(),
+                CustomListTile(
+                  assetsName: Assets.imagesDashboard,
+                  textStyle: AppTextStyles.styleSemiBold16Blue,
+                ),
               ],
             ),
           ),
@@ -26,3 +30,5 @@ class DesktopLayout extends StatelessWidget {
     );
   }
 }
+
+

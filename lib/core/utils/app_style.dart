@@ -11,7 +11,7 @@ abstract class AppTextStyles {
   static const styleSemiBold16Blue = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w600,
-    color: Color(0xFF1D9BF0),
+    color: Color(0xff4EB7F2),
   );
 
   static const styleRegular14Gray = TextStyle(
