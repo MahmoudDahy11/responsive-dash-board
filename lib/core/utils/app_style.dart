@@ -35,9 +35,10 @@ abstract class AppTextStyles {
   );
 
   static const styleMedium14Gray = TextStyle(
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: FontWeight.w500,
     color: Color(0xFF7F8C8D),
+    fontFamily: 'Montserrat',
   );
 
   // Card Titles & Dates
@@ -80,8 +81,8 @@ abstract class AppTextStyles {
   );
 
   // Transaction History
-  static const styleMedium14Dark = TextStyle(
-    fontSize: 14,
+  static const styleMedium16Dark = TextStyle(
+    fontSize: 16,
     fontWeight: FontWeight.w500,
     color: Color(0xFF064061),
   );
@@ -130,10 +131,11 @@ abstract class AppTextStyles {
   );
 
   // Income Chart
-  static const styleSemiBold16Dark2 = TextStyle(
-    fontSize: 16,
+  static const styleSemiBold18Dark2 = TextStyle(
+    fontSize: 18,
     fontWeight: FontWeight.w600,
     color: Color(0xFF064061),
+    // fontFamily: 'Montserrat',
   );
 
   static const styleRegular12Gray3 = TextStyle(

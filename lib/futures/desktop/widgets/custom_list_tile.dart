@@ -6,14 +6,20 @@ class CustomListTile extends StatelessWidget {
     super.key,
     required this.assetsName,
     required this.textStyle,
+    required this.text,
   });
   final String assetsName;
   final TextStyle textStyle;
+  final String text;
   @override
   Widget build(BuildContext context) {
     return ListTile(
       leading: SvgPicture.asset(assetsName),
-      title: Text('Dashboard', style: textStyle),
+      title: FittedBox(
+        alignment: Alignment.centerLeft,
+        fit: BoxFit.scaleDown,
+        child: Text(text, style: textStyle),
+      ),
     );
   }
 }
