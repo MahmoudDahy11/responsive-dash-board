@@ -1,147 +1,147 @@
 import 'package:flutter/material.dart';
 
-abstract class AppStyles {
+abstract class AppTextStyles {
   // Sidebar Navigation
-  static const sidebarTitle = TextStyle(
+  static const styleMedium16Gray = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w500,
     color: Color(0xFF4A4A4A),
   );
 
-  static const sidebarActive = TextStyle(
+  static const styleSemiBold16Blue = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w600,
     color: Color(0xFF1D9BF0),
   );
 
-  static const sidebarFooterGray = TextStyle(
+  static const styleRegular14Gray = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w400,
     color: Color(0xFF7F8C8D),
   );
 
-  static const sidebarFooterRed = TextStyle(
+  static const styleRegular14Red = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w400,
     color: Color(0xFFE74C3C),
   );
 
   // Section Titles
-  static const sectionTitle = TextStyle(
+  static const styleSemiBold20Dark = TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.w600,
     color: Color(0xFF2C3E50),
   );
 
-  static const dropdownLabel = TextStyle(
+  static const styleMedium14Gray = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w500,
     color: Color(0xFF7F8C8D),
   );
 
   // Card Titles & Dates
-  static const cardTitle = TextStyle(
+  static const styleMedium14Gray2 = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w500,
     color: Color(0xFF7F8C8D),
   );
 
-  static const cardDate = TextStyle(
+  static const styleRegular12LightGray = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w400,
     color: Color(0xFFBDC3C7),
   );
 
-  static const cardAmountBlue = TextStyle(
+  static const styleBold22Blue = TextStyle(
     fontSize: 22,
     fontWeight: FontWeight.w700,
     color: Color(0xFF1D9BF0),
   );
 
   // My Card Section
-  static const cardHolderName = TextStyle(
+  static const styleSemiBold16White = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w600,
     color: Colors.white,
   );
 
-  static const cardNumber = TextStyle(
+  static const styleSemiBold18WhiteSpacing2 = TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.w600,
     color: Colors.white,
     letterSpacing: 2,
   );
 
-  static const cardExpiry = TextStyle(
+  static const styleMedium12White = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w500,
     color: Colors.white,
   );
 
   // Transaction History
-  static const transactionTitle = TextStyle(
+  static const styleMedium14Dark = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w500,
     color: Color(0xFF2C3E50),
   );
 
-  static const transactionDate = TextStyle(
+  static const styleRegular12Gray = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w400,
     color: Color(0xFFBDC3C7),
   );
 
-  static const transactionAmountPositive = TextStyle(
+  static const styleSemiBold14Green = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w600,
     color: Color(0xFF27AE60),
   );
 
-  static const transactionAmountNegative = TextStyle(
+  static const styleSemiBold14Red = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w600,
     color: Color(0xFFE74C3C),
   );
 
   // Quick Invoice
-  static const quickInvoiceTitle = TextStyle(
+  static const styleSemiBold16Dark = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w600,
     color: Color(0xFF2C3E50),
   );
 
-  static const latestTransaction = TextStyle(
+  static const styleMedium14Dark2 = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w500,
     color: Color(0xFF2C3E50),
   );
 
-  static const inputLabel = TextStyle(
+  static const styleRegular12Gray2 = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w400,
     color: Color(0xFFBDC3C7),
   );
 
-  static const sendMoneyButton = TextStyle(
+  static const styleSemiBold14White = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w600,
     color: Colors.white,
   );
 
   // Income Chart
-  static const chartTitle = TextStyle(
+  static const styleSemiBold16Dark2 = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w600,
     color: Color(0xFF2C3E50),
   );
 
-  static const chartLabel = TextStyle(
+  static const styleRegular12Gray3 = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w400,
     color: Color(0xFF7F8C8D),
   );
 
-  static const chartPercent = TextStyle(
+  static const styleMedium12Dark = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w500,
     color: Color(0xFF2C3E50),
