@@ -30,7 +30,7 @@ abstract class AppTextStyles {
   static const styleSemiBold20Dark = TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.w600,
-    color: Color(0xFF2C3E50),
+    color: Color(0xFF064061),
   );
 
   static const styleMedium14Gray = TextStyle(
@@ -82,7 +82,7 @@ abstract class AppTextStyles {
   static const styleMedium14Dark = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w500,
-    color: Color(0xFF2C3E50),
+    color: Color(0xFF064061),
   );
 
   static const styleRegular12Gray = TextStyle(
@@ -107,13 +107,13 @@ abstract class AppTextStyles {
   static const styleSemiBold16Dark = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w600,
-    color: Color(0xFF2C3E50),
+    color: Color(0xFF064061),
   );
 
   static const styleMedium14Dark2 = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w500,
-    color: Color(0xFF2C3E50),
+    color: Color(0xFF064061),
   );
 
   static const styleRegular12Gray2 = TextStyle(
@@ -132,7 +132,7 @@ abstract class AppTextStyles {
   static const styleSemiBold16Dark2 = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w600,
-    color: Color(0xFF2C3E50),
+    color: Color(0xFF064061),
   );
 
   static const styleRegular12Gray3 = TextStyle(
@@ -144,6 +144,6 @@ abstract class AppTextStyles {
   static const styleMedium12Dark = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w500,
-    color: Color(0xFF2C3E50),
+    color: Color(0xFF064061),
   );
 }
